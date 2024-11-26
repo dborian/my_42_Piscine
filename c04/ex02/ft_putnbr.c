@@ -29,7 +29,7 @@ void	ft_putnbr(int nb)
 		nbr = nb * -1;
 	}
 	else if (nb == 0)
-		ft_putchar(0 + 48);
+		ft_putchar(48);
 	nb = -1;
 	while (nbr != 0)
 	{
